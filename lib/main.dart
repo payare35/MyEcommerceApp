@@ -31,15 +31,24 @@ class _HomePageState extends State<HomePage> {
         title: Text("My Ecommerce App"),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             margin: EdgeInsets.only(left: 15, bottom: 15, top: 15),
             child: ElevatedButton(
                 onPressed: () {
+                  print("I am register");
+                },
+                child: Text("Register")),
+          ),
+          Container(
+            margin: EdgeInsets.only(left: 15, bottom: 15),
+            child: ElevatedButton(
+                onPressed: () {
                   print("I am login");
                 },
                 child: Text("Login")),
-          )
+          ),
         ],
       ),
     );
