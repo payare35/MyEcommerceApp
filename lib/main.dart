@@ -49,6 +49,14 @@ class _HomePageState extends State<HomePage> {
                 },
                 child: Text("Login")),
           ),
+          Container(
+            margin: EdgeInsets.only(left: 15, bottom: 15),
+            child: ElevatedButton(
+                onPressed: () {
+                  print("I am Cart Button");
+                },
+                child: Text("Add to Cart")),
+          ),
         ],
       ),
     );
