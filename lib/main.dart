@@ -65,6 +65,14 @@ class _HomePageState extends State<HomePage> {
                 },
                 child: Text("Add to Wishlist")),
           ),
+          Container(
+            margin: EdgeInsets.only(left: 15, bottom: 15),
+            child: ElevatedButton(
+                onPressed: () {
+                  print("Checkout");
+                },
+                child: Text("Checkout")),
+          ),
         ],
       ),
     );
