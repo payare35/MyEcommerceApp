@@ -57,22 +57,6 @@ class _HomePageState extends State<HomePage> {
                 },
                 child: Text("Add to Cart")),
           ),
-          Container(
-            margin: EdgeInsets.only(left: 15, bottom: 15),
-            child: ElevatedButton(
-                onPressed: () {
-                  print("I am Wishlist Button");
-                },
-                child: Text("Add to Wishlist")),
-          ),
-          Container(
-            margin: EdgeInsets.only(left: 15, bottom: 15),
-            child: ElevatedButton(
-                onPressed: () {
-                  print("Checkout");
-                },
-                child: Text("Checkout")),
-          ),
         ],
       ),
     );
