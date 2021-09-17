@@ -83,6 +83,14 @@ class _HomePageState extends State<HomePage> {
                 },
                 child: Text("Design")),
           ),
+          Container(
+            margin: EdgeInsets.only(left: 15, bottom: 15),
+            child: ElevatedButton(
+                onPressed: () {
+                  print("I am profile Button");
+                },
+                child: Text("profile")),
+          ),
         ],
       ),
     );
