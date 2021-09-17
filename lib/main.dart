@@ -43,7 +43,9 @@ class _HomePageState extends State<HomePage> {
           ),
           Container(
             margin: EdgeInsets.only(left: 15, bottom: 15),
-            child: ElevatedButton(
+            child: ElevatedButton(style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(Colors.red)
+            ),
                 onPressed: () {
                   print("I am login");
                 },
@@ -80,6 +82,14 @@ class _HomePageState extends State<HomePage> {
                   print("I am Design Button");
                 },
                 child: Text("Design")),
+          ),
+          Container(
+            margin: EdgeInsets.only(left: 15, bottom: 15),
+            child: ElevatedButton(
+                onPressed: () {
+                  print("I am profile Button");
+                },
+                child: Text("profile")),
           ),
         ],
       ),
