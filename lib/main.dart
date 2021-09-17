@@ -61,6 +61,14 @@ class _HomePageState extends State<HomePage> {
             margin: EdgeInsets.only(left: 15, bottom: 15),
             child: ElevatedButton(
                 onPressed: () {
+                  print("I am Wishlist Button");
+                },
+                child: Text("Wishlist Button")),
+          ),
+          Container(
+            margin: EdgeInsets.only(left: 15, bottom: 15),
+            child: ElevatedButton(
+                onPressed: () {
                   print("I am Search Button");
                 },
                 child: Text("Search")),
