@@ -63,15 +63,23 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   print("I am Wishlist Button");
                 },
-                child: Text("Add to Wishlist")),
+                child: Text("Wishlist Button")),
           ),
           Container(
             margin: EdgeInsets.only(left: 15, bottom: 15),
             child: ElevatedButton(
                 onPressed: () {
-                  print("Checkout");
+                  print("I am Search Button");
                 },
-                child: Text("Checkout")),
+                child: Text("Search")),
+          ),
+          Container(
+            margin: EdgeInsets.only(left: 15, bottom: 15),
+            child: ElevatedButton(
+                onPressed: () {
+                  print("I am Design Button");
+                },
+                child: Text("Design")),
           ),
         ],
       ),
